@@ -25,15 +25,6 @@ public class Main
         }
 
         String lineOfText = "";
-
-/*        Scanner textReader = new Scanner(existingTextFile);
-        while(textReader.hasNext())
-        {
-            lineOfText = textReader.nextLine();
-            System.out.println(lineOfText);
-        }
-        textReader.close();*/
-
         FileReader textReader = new FileReader(existingTextFile);
         BufferedReader bufferedReader = new BufferedReader(textReader);
         while(bufferedReader.ready())
