@@ -2,6 +2,13 @@
 
 Examples of reading/writing files
 
+Techniques used:
+
+* JFileChooser
+* FileNameExtensionFilter to filter only for files with an extension of .txt
+* BufferedReader
+* FileReader
+
 ## Tools Used
 
 | Tool     |  Version |
